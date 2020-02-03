@@ -1,0 +1,17 @@
+{
+  "name": "music-collection",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Josh <joshsimon85@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

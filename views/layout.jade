@@ -1,0 +1,10 @@
+include /_mixins
+
+doctype html
+html
+  head
+    title= title
+    +stylesheet_link_tag('application')
+    link(href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet")
+  body
+    block content
