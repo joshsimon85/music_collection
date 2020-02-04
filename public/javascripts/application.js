@@ -4,6 +4,7 @@ var App = {
   indexView: function() {
     this.index = new IndexView();
     this.renderAlbums();
+    this.bindEvents();
   },
   renderAlbumView: function(album) {
     new AlbumView({
@@ -19,10 +20,6 @@ var App = {
   bindEvents: function() {
     _.extend(this, Backbone.Events);
     this.listenTo(this.index, 'add_album', this.newAlbum);
-  },
-  init: function() {
-    this.indexView();
-    this.bindEvents();
   }
 };
 
