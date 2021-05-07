@@ -15,7 +15,7 @@
     "morgan": "~1.9.1",
     "nib": "^1.1.2",
     "stylus": "^0.54.7",
-    "underscore": "^1.9.2"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
